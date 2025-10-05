@@ -63,27 +63,27 @@ CC0: Dominio Público
 
 ## Diccionario de datos:
 
-step: representa una unidad de tiempo en el mundo real, 1 step = 1 hora. Total steps = 744, equivalente a 30 días de simulación. TIPO: INT
+**step:** representa una unidad de tiempo en el mundo real, 1 step = 1 hora. Total steps = 744, equivalente a 30 días de simulación. TIPO: INT
 
-type: indica tipo de transacción, CASH-IN, CASH-OUT, DEBIT, PAYMENT, TRANSFER. TIPO: STRING
+**type:** indica tipo de transacción, CASH-IN, CASH-OUT, DEBIT, PAYMENT, TRANSFER. TIPO: STRING
 
-amount: monto de transacción expresado en moneda local. TIPO: FLOAT
+**amount:** monto de transacción expresado en moneda local. TIPO: FLOAT
 
-nameOrig: Cliente que realiza la transacción. TIPO : STRING
+**nameOrig:** Cliente que realiza la transacción. TIPO : STRING
 
-oldbalanceOrd: Saldo inicial del cliente que inicio la transacción, antes de realizarla. TIPO: FLOAT
+**oldbalanceOrd:** Saldo inicial del cliente que inicio la transacción, antes de realizarla. TIPO: FLOAT
 
-newbalanceOrig: Saldo después del pago. Se resta el monto de la transacción. TIPO: FLOAT
+**newbalanceOrig:** Saldo después del pago. Se resta el monto de la transacción. TIPO: FLOAT
 
-nameDest: Cuenta receptora(Comercio). TIPO: STRING
+**nameDest:** Cuenta receptora(Comercio). TIPO: STRING
 
-oldbalanceDest: Saldo inicial de la cuenta receptora. TIPO: FLOAT
+**oldbalanceDest:** Saldo inicial de la cuenta receptora. TIPO: FLOAT
 
-newbalanceDest: Saldo final de la cuenta receptora. TIPO: FLOAT
+**newbalanceDest:** Saldo final de la cuenta receptora. TIPO: FLOAT
 
-isFraud: marca de si una transacción es fraudulenta, Valor: 1 = fraude, 0 = normal. TIPO: INT
+**isFraud:** marca de si una transacción es fraudulenta, Valor: 1 = fraude, 0 = normal. TIPO: INT
 
-isFlaggedFraud: Indica si la transacción fue marcada como ilegal por el sistema, Valor: 1 = marcada como ilegal, 0 = no marcada. TIPO: INT
+**isFlaggedFraud:** Indica si la transacción fue marcada como ilegal por el sistema, Valor: 1 = marcada como ilegal, 0 = no marcada. TIPO: INT
 
 
 
